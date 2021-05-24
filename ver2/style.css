@@ -1,0 +1,72 @@
+*{
+    margin:0px;
+    padding:0px;
+    outline: 1px red solid;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex{
+    display: flex;
+}
+
+.spcBet{
+    justify-content: space-between;
+}
+
+.evenCen{
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cont{
+    background-color: white;
+    margin:auto;
+    width: 80%;
+}
+
+img {
+    width: 200px;
+}
+
+.head{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.nav{
+    height:60px;
+    background-color: black;
+    color:white;
+    padding-top: 20px;
+}
+
+.feed{
+    height:600px;
+}
+
+.col1 {
+    flex:1;
+    /* background-color: cyan; */
+    margin:20px;
+    flex-direction: column;
+}
+
+.col2 {
+    flex:4;
+    /* background-color: darkgreen; */
+    margin:20px;
+    flex-direction: column;
+}
+
+.friend{
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding:20px;
+    margin:20px;
+}
+
+.likeBox{
+    width: 20%;
+    justify-content: space-between;
+}

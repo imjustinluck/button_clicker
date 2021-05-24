@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cont">
+        <div class="nav">
+            <h1>Network</h1>
+        </div>
+        <h1 class = "head">Your Feed</h1>
+        <div class="feed flex spcBet">
+            <div class="col1 flex evenCen">
+                <img src="./Me.jpg" alt="it's a me!">
+                <a href="">Add An Avatar</a>
+                <h2>Justin Aguilo</h2>
+            </div>
+            <div class="col2 flex">
+                <div class="friend flex">
+                    <div class="like flex spcBet">
+                        <h2>LeBron James</h2>
+                        <div class="likeBox flex">
+                            <p id="newLike1">0 Like(s)</p>
+                            <button onclick="newLike(0,'#newLike1')">Like</button>
+                        </div>
+                    </div>
+                    <p>I just had the craziest time at the Lakers game last night! Check us out!
+                        <a href="">Instagram</a>
+                    </p>
+                </div>
+                <div class="friend flex">
+                    <div class="like flex spcBet">
+                        <h2>Justin Aguilo</h2>
+                        <div class="likeBox flex">
+                            <p id="newLike2">0 Like(s)</p>
+                            <button onclick="newLike(1,'#newLike2')">Like</button>
+                        </div>
+                    </div>
+                    <p>Hanging with my guy 
+                        <a href="">Jared Dudley</a>, what a dude!
+                    </p>
+                </div>
+                <div class="friend flex">
+                    <div class="like flex spcBet">
+                        <h2>Anthony Davis</h2>
+                        <div class="likeBox flex">
+                            <p id="newLike3">0 Like(s)</p>
+                            <button onclick="newLike(2,'#newLike3')">Like</button>
+                        </div>
+                    </div>
+                    <p>I'm really liking Fall Out Boy's 
+                        <a href="">new song</a>. Listen with me!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
