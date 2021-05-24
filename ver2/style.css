@@ -47,8 +47,9 @@ img {
 .col1 {
     flex:1;
     /* background-color: cyan; */
-    margin:20px;
+    margin:30px 20px;
     flex-direction: column;
+    outline: 1px solid black;
 }
 
 .col2 {
@@ -63,7 +64,8 @@ img {
     flex-direction: column;
     justify-content: space-evenly;
     padding:20px;
-    margin:20px;
+    margin:10px 0px;
+    outline: 1px solid black;
 }
 
 .likeBox{
